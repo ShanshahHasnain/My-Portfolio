@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #0d1117;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background: #0d6dfd25;
+}
+nav h1{
+    font-size: 30px;
+    color: #fff;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+#Home-Page{
+    padding: 50px 10px;
+    flex: 1;
+}
+#Home-Page h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#Home-Page p {
+    margin-top: 50px;
+    max-width: 400px;
+    margin: 20px 10;
+    color: #bbb;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Home-Page img {
+    margin-top: 29px;
+    width: 300px;
+    height: 300px;
+    border-radius: 90%;
+    border: 5px solid #0ec5c5d5;
+    box-shadow: 0 0 30px #00eeff63;
+    object-fit: cover;
+    float: right;
+    margin-left: 15px;
+}
+button{
+    margin-top: 40px;
+    background-color: #00f0f0;
+    color: #000;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+#Skills-Edu{
+    padding: 50px 10px;
+    flex: 1;
+    text-align: Left;
+}
+section h2{
+    background-color: #0d7dfdd3;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+section ul{
+    max-width: 500px;
+    margin: 20px 10px;
+}
+section li{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#Projects-Page{
+    flex: 1;
+    text-align: Left;    
+}
+#Projects-Page h1{
+    background-color: #0d7dfdd3;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;   
+}
+.Poject{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 170px;
+    padding-top: 20px;
+}
+.Card1{
+  background-color: rgba(26, 162, 252, 0.8);
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  border: 5px solid #0ec5c5d5;
+  box-shadow: 0 0 30px #00eeff63;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  border-radius: 10px;    
+}
+.Card2{
+  background-color: rgba(26, 162, 252, 0.8);
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  border: 5px solid #0ec5c5d5;
+  box-shadow: 0 0 30px #00eeff63;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  border-radius: 10px;    
+}
+.Card3{
+  background-color: rgba(26, 162, 252, 0.8);
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  border: 5px solid #0ec5c5d5;
+  box-shadow: 0 0 30px #00eeff63;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  border-radius: 10px;    
+}
+.Card4{
+  background-color: rgba(26, 162, 252, 0.8);
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  border: 5px solid #0ec5c5d5;
+  box-shadow: 0 0 30px #00eeff63;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  border-radius: 10px;    
+}
+.Card5{
+  background-color: rgba(26, 162, 252, 0.8);
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  border: 5px solid #0ec5c5d5;
+  box-shadow: 0 0 30px #00eeff63;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  border-radius: 10px;    
+}
+.Card6{
+  background-color: rgba(26, 162, 252, 0.8);
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  border: 5px solid #0ec5c5d5;
+  box-shadow: 0 0 30px #00eeff63;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  border-radius: 10px;    
+}
+.Contact-Technique{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 10px;
+    flex: 1;
+    text-align: Left;    
+}
+.Contact{
+    background-color: #0d7dfdd3;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;   
+}
+form {
+    width: 100%;
+    max-width: 500px;
+    background: #161b22;
+    padding: 10px;
+    border-radius: 25px;
+    border: 5px solid #0ec5c5d5;
+    box-shadow: 0 0 30px #00eeff63;
+}
+form label {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+form .button {
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+    border: 5px solid #0c13133a;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+input{
+    background: #0d1117;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+textarea{
+    background: #0d1117;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    min-height: 10px;    
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #0d6dfd25;
+    color: #aaa;
+    border-top: 1px solid #222;
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #Home-Page img {
+    width: 150px;
+    height: 150px;
+    float: none;
+    display: block;
+    margin: 20px auto;
+  }
+  .Poject {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  form {
+    max-width: 90%;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  nav ul {
+    gap: 15px;
+  }
+  #Home-Page img {
+    width: 200px;
+    height: 200px;
+  }
+  .Poject {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  form {
+    max-width: 80%;
+  }
+}

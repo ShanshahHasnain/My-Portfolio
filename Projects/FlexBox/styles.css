@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+body{
+  background-color: cornflowerblue;
+}
+.Logo{
+    font-size: 24px;
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.Cards{
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 100px;
+    display: flex;    
+}
+.Cards1{
+  background-image: url(PIC1.jpg);
+  background-size: contain;
+  color: rgb(22, 6, 6);
+  font-size: 26px;
+  padding: 20x;
+  width: 190px;
+  height: 80px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.Cards2{
+  background-color: #0fc972;
+  color: white;
+  font-size: 26px;
+  padding: 20x;
+  width: 190px;
+  height: 80px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.Cards3{
+  background-color: #c25913;
+  color: white;
+  font-size: 26px;
+  padding: 20x;
+  width: 190px;
+  height: 80;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.Cards4{
+  background-color: #d860a6;
+  color: white;
+  font-size: 26px;
+  padding: 20x;
+  width: 190px;
+  height: 80;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+}
